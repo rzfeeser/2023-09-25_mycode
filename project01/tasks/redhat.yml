@@ -1,0 +1,5 @@
+- name: Cowsay on RedHat system (yum)
+  ansible.builtin.yum:
+    name: cowsay
+    state: present
+  become: yes

@@ -1,0 +1,5 @@
+- name: Cowsay on Debian system (apt)
+  ansible.builtin.apt:
+    name: cowsay
+    state: present
+  become: yes
