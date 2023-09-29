@@ -1,0 +1,1 @@
+{"event": "verbose", "uuid": "493eec76-df06-4db7-b18f-a16d4c0bbd62", "counter": 1, "stdout": "\u001b[1;35m[WARNING]: Failed to load inventory plugin, skipping servicenow.itsm.now\u001b[0m", "start_line": 0, "end_line": 1, "runner_ident": "a2034bf7-515c-4806-8514-47813bce9906", "created": "2023-09-29T15:41:33.407017"}

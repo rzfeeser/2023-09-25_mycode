@@ -1,0 +1,6 @@
+[powerstores]
+pstore01 array_ip=10.10.1.1 user=admin pattern=looky
+pstore02 array_ip=192.168.2.33 user=admin pattern=aboutface
+
+[powerstores:vars]
+validate_certs=false

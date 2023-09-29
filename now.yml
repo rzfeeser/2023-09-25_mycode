@@ -1,0 +1,14 @@
+# A trivial example that creates a host from every record of the
+# ServiceNow cmdb_ci_server table. The ip_address column is used for
+# for ansible host, and server name for inventory hostname.
+# No groups will be created - all the resulting hosts are ungrouped.
+plugin: servicenow.itsm.now
+
+# `ansible-inventory -i inventory.now.yaml --graph` output:
+# @all:
+#  |--@ungrouped:
+#  |  |--DatabaseServer1
+#  |  |--DatabaseServer2
+#  |  |--INSIGHT-NY-03
+#  |  |--MailServerUS
+#  |  |--VMWARE-SD-04
